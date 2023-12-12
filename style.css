@@ -1,0 +1,169 @@
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.section {
+    width: 100%;
+    display: block;
+}
+
+#title {
+    background-color: #0C5199;
+    margin-top: 0px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+#title h1 {
+    font-size: 38px; /* Or any other size */
+    font-weight: 800;
+    letter-spacing: 2px; /* Or any other value */
+}
+
+#title h2 {
+    letter-spacing: 2px;
+}
+
+#intro {
+    height: 600px;
+    display: flex;
+    color: #0C5199;
+    margin-top: 30px;
+}
+
+#intro h1 {
+    text-align: center;
+    font-size: 38px;
+}
+
+#intro p {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-size: 24px;
+    color: #576471;
+}
+
+#intro .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro .image-container img {
+    padding-top: 30px;
+}
+
+#implementation {
+    height: 650px;
+    background-color: #E0E5EA;
+    align-items: center;
+    justify-content: center;
+}
+
+#implementation h1 {
+    text-align: center;
+    font-size: 38px;
+    color: #0C5199;
+    padding-top: 30px;
+}
+
+#implementation p {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-size: 24px;
+    color: #576471;
+}
+
+#implementation .cloth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#improvement {
+    height: 700px;
+    background-color: white;
+}
+
+#improvement .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#improvement h1 {
+    text-align: center;
+    font-size: 38px;
+    color: #0C5199;
+    padding-top: 30px;
+}
+
+#improvement p {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-size: 24px;
+    color: #576471;
+}
+
+#improvement img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#improvement {
+    padding-bottom: 20px;
+}
+
+#demonstration {
+    background-color: #E0E5EA;
+    display: flex; /* This establishes a flex container */
+    justify-content: center; /* This centers children along the main axis (horizontally if the flex-direction is row) */
+    align-items: center; /* This centers children along the cross axis (vertically if the flex-direction is row) */
+    flex-direction: column; /* This is optional, depending on whether you want vertical or horizontal alignment */
+}
+
+
+#demonstration h1 {
+    text-align: center;
+    font-size: 38px;
+    color: #0C5199;
+    padding-top: 30px;
+}
+
+#bottom {
+    background-color: #0C5199;
+    color:white;
+}
+
+#demonstration {
+    padding-bottom: 20px;
+}
